@@ -1,0 +1,46 @@
+{
+    "name": "Bitly_Bot",
+    "description": "Make short link by using Bitly API key",
+    "keywords": [
+        "telegram",
+        "Bitly"
+    ],
+    "website": "https://github.com/MrVishal2k2",
+    "repository": "https://github.com/Mrvishal2k2/TG-ShortLinkBot/tree/Bitly",
+    "logo": "https://telegra.ph//file/b3461e7795bb258688623.jpg",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token.Get from Botfather bot",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "BITLY_KEY": {
+            "description": "Bitly API See Readme for further details",
+            "required": false
+        },
+       "OWNER": {
+            "description": "OWNER username without @",
+            "required": false
+        }
+
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
