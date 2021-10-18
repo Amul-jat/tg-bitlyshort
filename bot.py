@@ -19,6 +19,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyshorteners import Shortener
 from config import *
 
+API_ID = int(environ.get('API_ID'))
+API_HASH = environ.get('API_HASH')
+BOT_TOKEN = environ.get('BOT_TOKEN')
+BITLY_KEY = environ.get('BITLY_KEY')
+OWNER = environ.get('OWNER','Kamdev07')
 
 SHORTLINKBOT = Client('ShortlinkBot',
              api_id=API_ID,
