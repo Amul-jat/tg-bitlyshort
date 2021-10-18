@@ -1,12 +1,12 @@
 {
-    "name": "Bitly_Bot",
+    "name": "tg-bitlyshort",
     "description": "Make short link by using Bitly API key",
     "keywords": [
         "telegram",
         "Bitly"
     ],
-    "website": "https://github.com/MrVishal2k2",
-    "repository": "https://github.com/Mrvishal2k2/TG-ShortLinkBot/tree/Bitly",
+    "website": "https://github.com/Amul-jat",
+    "repository": "https://github.com/Amul-jat/tg-bitlyshort",
     "logo": "https://telegra.ph//file/b3461e7795bb258688623.jpg",
     "env": {
         "BOT_TOKEN": {
@@ -23,7 +23,7 @@
         },
         "BITLY_KEY": {
             "description": "Bitly API See Readme for further details",
-            "required": false
+            "required": ""
         },
        "OWNER": {
             "description": "OWNER username without @",
