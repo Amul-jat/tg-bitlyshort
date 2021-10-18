@@ -2,10 +2,7 @@
 
 # Bitly Bot
 
-import logging
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-log = logging.getLogger(__name__)
-logging.getLogger("pyrogram").setLevel(logging.WARNING)
+
 
 from os import environ
 from pyrogram import Client, filters
